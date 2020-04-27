@@ -1,0 +1,29 @@
+  article, aside, footer, header, nav, section {
+    display: block;
+  }
+  a {
+    color: #fff;
+    background-color: #333;
+    transition: all 1s ease-out;
+  }
+  
+  a:hover,
+  a:focus {
+    color: #333;
+    background-color: #fff;
+  }
+
+  p {
+    padding-left: 60px;
+  }
+  
+  #foo {
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    background: #c00;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 1s;
+  }
